@@ -17,11 +17,13 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+
 - task: CopyFiles@2
+  displayName: 'Copy Terraform files to artifacts'
   inputs:
-    SourceFolder: 'terraform_devops'
-    Contents: '**'
+    SourceFolder: Terraform
     TargetFolder: '$(build.artifactstagingdirectory)/Terraform'
+
 
 - task: PublishBuildArtifacts@1
   inputs:
