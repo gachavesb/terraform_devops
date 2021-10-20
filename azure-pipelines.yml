@@ -13,7 +13,7 @@ steps:
 - task: CopyFiles@2
   displayName: 'Copy Terraform files to artifacts'
   inputs:
-    SourceFolder: terraform-aks-master/terraform
+    SourceFolder: terraform-aks-master
     TargetFolder: '$(build.artifactstagingdirectory)'
 
 - task: PublishBuildArtifacts@1
