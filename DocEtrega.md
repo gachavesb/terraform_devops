@@ -211,3 +211,6 @@ En Azure Portal , busque y seleccione Monitor . El panel Monitor consolida todos
 2. Haga clic en Revisar + crear para revisar la configuración. Esto hará una validación rápida de sus entradas para asegurarse de que todos los campos obligatorios estén seleccionados. Si hay problemas, se informarán aquí. Una vez que haya revisado la configuración, haga clic en Crear para aprovisionar el grupo de acciones.
 
 # REFERENCIAS
+
+- https://techcommunity.microsoft.com/t5/azure-global/send-your-jmeter-test-results-to-azure-application-insights/ba-p/1195320
+- https://docs.microsoft.com/en-us/azure/azure-monitor/alerts/action-groups
