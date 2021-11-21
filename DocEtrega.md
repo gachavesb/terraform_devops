@@ -170,8 +170,6 @@ En Azure Portal , busque y seleccione Monitor . El panel Monitor consolida todos
 
 3. Ingrese un nombre para mostrar . El nombre para mostrar se usa en lugar del nombre completo del grupo de acciones cuando se envían notificaciones mediante este grupo.
 
-![Example](https://github.com/gachavesb/terraform_devops/blob/main/Screenshot_12.png)
-
 ### Configurar notificaciones
 1. Haga clic en el botón Siguiente: Notificaciones> para ir a la pestaña Notificaciones , o seleccione la pestaña Notificaciones en la parte superior de la pantalla.
 
@@ -187,8 +185,8 @@ En Azure Portal , busque y seleccione Monitor . El panel Monitor consolida todos
 4. Detalles : según el tipo de notificación seleccionado, ingrese una dirección de correo electrónico, número de teléfono, etc.
 
 5. Esquema de alerta común : puede optar por habilitar el esquema de alerta común , que ofrece la ventaja de tener una única carga útil de alerta unificada y extensible en todos los servicios de alerta en Azure Monitor.
-
----
+6. 
+![Example](https://github.com/gachavesb/terraform_devops/blob/main/Screenshot_12.png)
 
 ### Configurar acciones
 1. Haga clic en el botón Siguiente: Acciones> para ir a la pestaña Acciones , o seleccione la pestaña Acciones en la parte superior de la pantalla.
@@ -214,3 +212,4 @@ En Azure Portal , busque y seleccione Monitor . El panel Monitor consolida todos
 
 - https://techcommunity.microsoft.com/t5/azure-global/send-your-jmeter-test-results-to-azure-application-insights/ba-p/1195320
 - https://docs.microsoft.com/en-us/azure/azure-monitor/alerts/action-groups
+- https://cloudwizardinc.com/2020/06/19/send-mails-from-event-hub-via-azure-functions/
